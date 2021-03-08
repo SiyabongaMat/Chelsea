@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>London's Pride</title>
+        <link rel="stylesheet" type="text/css" href="css/home.css">
+
+    </head>
+
+    <body onload="load()">
+
+        <!--top section of webpage start-->
+        <div class="nav">
+
+            <img src="images/chelsea2.png" id="logo" style="float: left;"> 
+            <h2 style="float: left;">Chelsea FC - Pride of London, South Africa Fan Club</h2>
+
+        </div>
+
+        <div id="team">
+
+        </div>
+        <!--top section/navigation center end-->
+
+        <p>
+            <a href="index.html">HOME</a>
+            <a href="https://www.chelseafc.com/en/news">NEWS</a>
+            <a href="team.html">THE TEAM</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="saves.html">SAVES</a>
+            <!--Links in the navbar section of webpage-->
+        </p>
+
+        <!--div for stamford bridge image and information start-->
+        <div class="theBridge" style="margin-bottom: 50px;">
+
+            <img src="images/bridge.jpg" id="theBridge" onclick="saveImage(this.id)">
+
+            <article id="stamford">
+
+            <h3>The Bridge</h3>
+            <pre>
+                The Stamford Bridge, football stadium in Fulham, South West London
+                Home to Chelsea football club with the capacity to hold 41 837 fans
+                within the stadium. It also goes by the nickname <b>THE BRIDGE</b>
+                The stadium first opened in 1877 and used by London Athletic Club 
+                until Gus Mears founded Chelsea and used the stadium as home for 
+                his newfoundclub. Chelsea has played their home games there since 
+                and has undergone changes with the most recent change done in the
+                1990s and was changed into the now modern all-seater stadium.
+                
+                Over the years the stadium has hosted various events, including:
+
+                    England international games
+                    FA cup finals
+                    FA cup semifinals
+                    Community shield games
+                    <a href="https://en.wikipedia.org/wiki/Stamford_Bridge_(stadium)">Source</a>
+                    <!--link to original source of information-->
+                    <button onclick="saveStamfordArticle()">Save Article</button>
+            </pre>
+
+            </article>
+
+        </div>
+        <!--stamford bridge section end-->
+
+        <!--Div for the owner of chelsea fc start-->
+        <div>
+
+            <article id="roman">
+
+                <h3>Roman Abramovich</h3>
+                <p>Wealthy Russian-Israeli businessman, most notoriously known as <br> the owner of the Chelsea football club since June 2003</p>
+                <h5>Image to the right</h5>
+                <button onclick="saveRomanArticle()">Save Article</button>
+
+            </article>
+
+            <img src="images/roman.jpg" id="romanImg" onclick="saveImage(this.id)">
+
+        </div>
+        <!--End for second section of webpage-->
+
+        <!--Cobham training centre div start-->
+        <div class="training">
+
+            <img src="images/cobham.jpg" id="trainingGround" onclick="saveImage(this.id)">
+
+            <article id="training">
+
+                <h3>Cobham Training Ground</h3>
+                <pre>
+                    The Cobham is the training ground for Chelsea F.C in the village 
+                    of Stoke d'Abernon. The first team has been training in the 
+                    Cobham since 2005 but wasn't officially open until 2007.
+                    Worth 20 million pounds, the training ground is situated in a 
+                    140-acre ground which houses all the fooball clubs activities,
+                    from the 1st team, reserve team, academy and women's team.
+                    It includes:       
+                                30 football fields
+                                Indoor fields
+                                Media room
+                                Sauna
+                                Gyms
+                                Steam room etc,
+                    <a href="https://en.wikipedia.org/wiki/Cobham_Training_Centre">Source</a>
+                    <button onclick="saveCobhamArticle()">Save Article</button>          <!--source link to the training centre wiki page-->
+                </pre>
+
+            </article>
+
+        </div>
+        <!--Cobham training ground script end-->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+</html>

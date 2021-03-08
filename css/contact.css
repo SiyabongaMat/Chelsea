@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+
+.nav {
+  background-color: #001489;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.nav #logo {
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+}
+
+.nav h2 {
+  color: #ffffff;
+  margin-top: 8px;
+  margin-left: 260px;
+  word-spacing: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#team {
+  background-image: url("../images/fans.jpg");
+  height: 30em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+  border-radius: 10px;
+}
+
+p {
+  margin-left: 15px;
+  margin-bottom: -30px;
+}
+
+p a {
+  position: relative;
+  top: -52px;
+  text-decoration: none;
+  margin-top: 300px;
+  color: #ffffff;
+  padding: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: 3px 3px #000000;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #dc143c;
+  margin-top: 5px;
+}
+
+a:hover {
+  background-color: #1e90ff;
+  color: white;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+form h1 {
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=contact.css.map */

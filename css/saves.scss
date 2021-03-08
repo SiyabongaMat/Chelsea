@@ -1,0 +1,82 @@
+$font: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@mixin padding ($padding) 
+{
+    padding: $padding;
+}
+
+body 
+{
+    margin: 0;
+}
+
+//nav section styling start
+.nav 
+{
+    background-color: #001489;
+    height: 40px;
+    border-radius: 4px;
+    #logo 
+    {
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    h2 
+    {
+        color: white;
+        margin-top: 8px;
+        margin-left: 290px;
+        word-spacing: 10px;
+        font-family: $font;
+        text-align: center;
+    }
+}
+//nav section styling end
+
+//intro image
+#saves 
+{
+    background-image: url("../images/squad.jpg");
+    height: 35em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+    -webkit-filter: blur(1px);
+    border-radius: 10px;
+}
+
+p 
+{
+    margin-left: 15px;
+    margin-bottom: -30px;
+    a 
+    {
+        position: relative;
+        top: -52px;
+        text-decoration: none;
+        margin-top: 300px;
+        color: white;
+        @include padding(15px);
+        font-family: $font;
+        text-shadow: 3px 3px black;
+        font-weight: bolder;
+    }
+}
+
+//styling tag for links of webpage
+a
+{
+    text-decoration: none;
+    font-size: 18px;
+    color: crimson;
+    margin-top: 5px;
+}
+a:hover 
+{
+    background-color: dodgerblue;
+    color: gold;
+}

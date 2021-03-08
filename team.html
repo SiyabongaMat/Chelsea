@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Meet the team</title>
+        <link rel="stylesheet" type="text/css" href="css/team.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body onload="load()">
+
+        <!--top section of webpage start-->
+        <div class="nav" id="top">
+
+            <img src="images/chelsea2.png" id="logo" style="float: left;"> 
+            <h2 style="float: left;">Chelsea FC - Pride of London, South Africa Fan Club</h2>
+
+        </div>
+
+        <div id="team">
+
+        </div>
+        <!--top section/navigation center end-->
+
+        <div>
+            <p>
+                <a href="index.html">HOME</a>
+                <a href="https://www.chelseafc.com/en/news">NEWS</a>
+                <a href="team.html">THE TEAM</a>
+                <a href="contact.html">CONTACT US</a>
+                <a href="saves.html">SAVES</a>
+                <!--Links in the navbar section of webpage-->
+            </p>
+        </div>
+
+        <!--Table with list of the chelsea squad-->
+        <h1 id="heading" style="text-align: center;">Team List</h1>
+        <div style="margin-bottom: 50px;display: none;" class="teamList">
+
+            <table>
+                <tr>
+                    <td> <b> Coach </b> </td>
+                    <td> <a href="#thomas">Thomas Tuchel</a> </td>
+                </tr>
+                <tr>
+                    <td> <b>Goalkeeper</b> </td>
+                    <td> <a href="#mendy">Eduoard Mendy</a> </td>
+                </tr>
+                <tr>
+                    <td> <b> Defenders </b> </td>
+                    <td> <a href="#thiago">Thiago Silva</a> </td>
+                    <td> <a href="#zouma"> Kurt Zouma</a> </td>
+                    <td> <a href="#rudiger"> Antonio Rudiger</a> </td>>
+                    <td> <a href="#cesar"> Cesar Azpilicueta</a> </td>
+                </tr>
+                <tr>
+                    <td> <b>Midfielders</b> </td>
+                    <td> <a href="#mount"> Mason Mount</a> </td>
+                    <td> <a href="#kante"> Ngolo Kante</a> </td>
+                </tr>
+                <tr>
+                    <td> <b>Forwards</b> </td>
+                    <td> <a href="#ziyech"> Hakim Ziyech</a> </td>
+                    <td> <a href="#giroud"> Olivier Giroud</a> </td>
+                    <td> <a href="#pulisic"> Christian Pulisic</a> </td>
+                </tr>
+            </table>
+
+            <!--throughout, the code has the 'i' tag for thumbs up icon/button which turns red when clicked on-->
+
+        </div>                          <!--table end-->
+
+        <!--Thomas Tuchel div start-->
+        <header>
+            <h1>Thomas Tuchel</h1>
+            <h3>COACH</h3>
+        </header>
+
+        <div class="profilePic"> <img src="images/thomas.jpg" id="thomasPic" onclick="saveTeamImages(this.id)"> </div>
+        <div id="thomas">
+            <article>
+                <h2>Info for Thomas Tuchel</h2>
+                <h5> Date of Birth: 29 August 1973 </h5>
+                <h5> Age: 47 </h5>
+                <h5> Nationality: Germany </h5>
+                <h5> Height: 1,9m </h5>
+            </article>
+            <a href="#top">Top</a> <br>
+            <i class="fa fa-thumbs-up" onclick="saveThomasArticle()"></i>
+        </div>
+        <hr>
+
+        <!--Eduoard Mendy div start-->
+        <header>
+            <h1>Eduoard Mendy</h1>
+            <h3>Goalkeeper</h3>
+        </header>
+
+        <div class="profilePic"> <img src="images/mendy.jpg" id="mendyPic" onclick="saveTeamImages(this.id)"> </div>
+        <div id="mendy">
+            <article>
+                <h2>Info for Eduoard Mendy</h2>
+                <h5> Date of Birth: 1 March 1992 </h5>
+                <h5> Age: 28 </h5>
+                <h5> Nationality: Senegal </h5>
+                <h5> Height: 1,97m </h5>
+            </article>
+            <a href="#top">Top</a> <br>
+            <i class="fa fa-thumbs-up" onclick="saveMendyArticle()"></i>
+        </div>
+        <hr>
+
+        <!--Thiago Silva div start-->
+        <header>
+            <h1>Thiago Silva</h1>
+            <h3>Defender</h3>
+        </header>
+
+        <div class="profilePic"> <img src="images/thiago.jpg" id="thiagoPic" onclick="saveTeamImages(this.id)"> </div>
+        <div id="thiago">
+            <article>
+                <h2>Info for Thiago Silva</h2>
+                <h5> Date of Birth: 22 September 1984 </h5>
+                <h5> Age: 36 </h5>
+                <h5> Nationality: Brazil </h5>
+                <h5> Height: 1,83m </h5>
+            </article>
+            <a href="#top">Top</a> <br>
+            <i class="fa fa-thumbs-up" onclick="saveThiagoArticle()"></i>
+        </div>
+        <hr>
+
+        <!--Kurt Zouma div start-->
+        <header>
+            <h1>Kurt Zouma</h1>
+            <h3>Defender</h3>
+        </header>
+
+        <div class="profilePic"> <img src="images/zouma.jpg" id="zoumaPic" onclick="saveTeamImages(this.id)"> </div>
+        <div id="zouma">
+            <article>
+                <h2>Info for Kurt Zouma</h2>
+                <h5> Date of Birth: 27 October 1994 </h5>
+                <h5> Age: 26 </h5>
+                <h5> Nationality: France </h5>
+                <h5> Height: 1,9m </h5>
+            </article>
+            <a href="#top">Top</a> <br>
+            <i class="fa fa-thumbs-up" onclick="saveZoumaArticle()"></i>
+        </div>
+        <hr>
+
+        <!--Antonio Rudiger div start-->
+        <header>
+            <h1>Antonio Rudiger</h1>
+            <h3>Defender</h3>
+        </header>
+
+        <div class="profilePic"> <img src="images/rudiger.jpg" id="rudigerPic" onclick="saveTeamImages(this.id)"> </div>
+        <div id="rudiger">
+            <article>
+                <h2>Info for Antonio Rudiger</h2>
+                <h5> Date of Birth: 3 March 1993 </h5>
+                <h5> Age: 25 </h5>
+                <h5> Nationality: Germany </h5>
+                <h5> Height: 1,9m </h5>
+            </article>
+            <a href="#top">Top</a> <br>
+            <i class="fa fa-thumbs-up" onclick="saveRudigerArticle()"></i>
+        </div>
+        <hr>
+
+        <!--Cesar Azpilicueta div start-->
+        <header>
+            <h1>Cesar Azpilicueta</h1>
+            <h3>Defender</h3>
+        </header>
+
+        <div class="profilePic"> <img src="images/cesar.jpeg" id="cesarPic" onclick="saveTeamImages(this.id)"> </div>
+        <div id="cesar">
+            <article>
+                <h2>Info for Cesar Azpilicueta</h2>
+                <h5> Date of Birth: 21 August 1989 </h5>
+                <h5> Age: 31 </h5>
+                <h5> Nationality: Spain </h5>
+                <h5> Height: 1,78m </h5>
+            </article>
+            <a href="#top">Top</a> <br>
+            <i class="fa fa-thumbs-up" onclick="saveCesarArticle()"></i>
+        </div>
+        <hr>
+
+        <!--Mason Mount div start-->
+        <header>
+            <h1>Mason Mount</h1>
+            <h3>Midfielder</h3>
+        </header>
+
+        <div class="profilePic"> <img src="images/mount.jpg" id="mountPic" onclick="saveTeamImages(this.id)"> </div>
+        <div id="mount">
+            <article>
+                <h2>Info for Mason Mount</h2>
+                <h5> Date of Birth: 10 January 1999 </h5>
+                <h5> Age: 22 </h5>
+                <h5> Nationality: England </h5>
+                <h5> Height: 1,78m </h5>
+            </article>
+            <a href="#top">Top</a> <br>
+            <i class="fa fa-thumbs-up" onclick="saveMountArticle()"></i>
+        </div>
+        <hr>
+
+        <!--Ngolo Kante div start-->
+        <header>
+            <h1>Ngolo Kante</h1>
+            <h3>Midfielder</h3>
+        </header>
+
+        <div class="profilePic"> <img src="images/kante.jpg" id="kantePic" onclick="saveTeamImages(this.id)"> </div>
+        <div id="kante">
+            <article>
+                <h2>Info for Ngolo Kante</h2>
+                <h5> Date of Birth: 29 March 1991 </h5>
+                <h5> Age: 29 </h5>
+                <h5> Nationality: France </h5>
+                <h5> Height: 1,68m </h5>
+            </article>
+            <a href="#top">Top</a> <br>
+            <i class="fa fa-thumbs-up" onclick="saveKanteArticle()"></i>
+        </div>
+        <hr>
+
+        <!--Hakim Ziyech div start-->
+        <header>
+            <h1>Hakim Ziyech</h1>
+            <h3>Forward</h3>
+        </header>
+
+        <div class="profilePic"> <img src="images/ziyech.jpg" id="ziyechPic" onclick="saveTeamImages(this.id)"> </div>
+        <div id="ziyech">
+            <article>
+                <h2>Info for Hakim Ziyech</h2>
+                <h5> Date of Birth: 19 March 1993 </h5>
+                <h5> Age: 27 </h5>
+                <h5> Nationality: Morocco </h5>
+                <h5> Height: 1,81m </h5>
+            </article>
+            <a href="#top">Top</a> <br>
+            <i class="fa fa-thumbs-up" onclick="saveZiyechArticle()"></i>
+        </div>
+        <hr>
+
+        <!--Olivier Giroud div start-->
+        <header>
+            <h1>Olivier Giroud</h1>
+            <h3>Forward</h3>
+        </header>
+
+        <div class="profilePic"> <img src="images/giroud.jpeg" id="giroudPic" onclick="saveTeamImages(this.id)"> </div>
+        <div id="giroud">
+            <article>
+                <h2>Info for Olivier Giroud</h2>
+                <h5> Date of Birth: 30 September 1986 </h5>
+                <h5> Age: 34 </h5>
+                <h5> Nationality: France </h5>
+                <h5> Height: 1,93m </h5>
+            </article>
+            <a href="#top">Top</a> <br>
+            <i class="fa fa-thumbs-up" onclick="saveGiroudArticle()"></i>
+        </div>
+        <hr>
+
+        <!--Christian Pulisic div start-->
+        <header>
+            <h1>Christian Pulisic</h1>
+            <h3>Forward</h3>
+        </header>
+
+        <div class="profilePic"> <img src="images/pulisic.jpeg" id="pulisicPic" onclick="saveTeamImages(this.id)"> </div>
+        <div id="pulisic">
+            <article>
+                <h2>Info for Christian Pulisic</h2>
+                <h5> Date of Birth: 18 September 1998 </h5>
+                <h5> Age: 34 </h5>
+                <h5> Nationality: America </h5>
+                <h5> Height: 1,73m </h5>
+            </article>
+            <a href="#top">Top</a> <br>
+            <i class="fa fa-thumbs-up" onclick="savePulisicArticle()"></i>
+        </div>
+        <hr>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+
+</html>
