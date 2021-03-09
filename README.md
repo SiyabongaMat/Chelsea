@@ -31,4 +31,4 @@ Download the zipfile with all the files in this repository. Click the green `cod
 * Alert to display for when the user clicks on an article to save
 
 ![savesPage](https://user-images.githubusercontent.com/79463249/110474421-50206380-80e8-11eb-8550-5c70fd938915.png)
-* Display of content in saves page after it has been appended to saves page
+* Displayed content in the saves page after it has been appended to saves page
